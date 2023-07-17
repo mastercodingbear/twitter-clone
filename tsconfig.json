@@ -22,14 +22,7 @@
     "lib": ["ES2022", "dom"],
     "paths": {
       "@core/*": ["src/core/*"],
-      "@animations/*": ["src/app/animations/*"],
-      "@constants/*": ["src/app/constants/*"],
-      "@mocks/*": ["src/app/mocks/*"],
-      "@models/*": ["src/app/models/*"],
-      "@helpers/*": ["src/app/helpers/*"],
-      "@partial/*": ["src/app/shared/partial/*"],
-      "@layout/*": ["src/app/shared/layout/*"],
-      "@icon/*": ["src/app/shared/icon/*"]
+      "@/*": ["src/app/*"],
     }
   },
   "angularCompilerOptions": {
